@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+}
+
+body {
+    background-image: url(./img/fundo3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.border {
+    width: 500px;
+    background: transparent;
+    border: 1.7px solid rgba(255, 255, 255, 0.367);
+    backdrop-filter: blur(8px); /* deixa o fundo fosco */
+    border-radius: 25px;
+    padding: 50px 30px;
+}
+
+.title-1 {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    -webkit-text-stroke: 2px #000000;
+}
+
+.user {
+    font-size: 30px;
+    color: #fff;
+    -webkit-text-stroke: 0.9px #000000;
+}
+
+.img1 {
+    position: relative;
+    left: 380px;
+    bottom: 34px;
+}
+
+.pass {
+    font-size: 30px;
+    color: #fff;
+    -webkit-text-stroke: 0.9px #000000;
+}
+
+.img2 {
+    position: relative;
+    left: 380px;
+    bottom: 34px;
+}
+
+.pass-1 {
+    position: relative;
+    bottom: 45px;
+}
+
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register-link p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800px;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    -webkit-text-stroke: 2px #000000;
+}
+
+.sub {
+    position: relative;
+    left: 150px;
+    bottom: -100px;
+    color: #fff;
+}
+
